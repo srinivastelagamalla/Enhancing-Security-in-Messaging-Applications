@@ -49,3 +49,12 @@ No private keys or sensitive data are stored.
 TLS private key is not included for security.
 You can generate a new pair using:
 openssl req -x509 -newkey rsa:2048 -nodes -keyout server_key.pem -out server_cert.pem -days 365
+
+# Enhancing Security in Messaging Applications
+
+This project demonstrates security features for a messaging application across nine tasks, including AES encryption, end-to-end encryption, SRTP-based voice protection, secure file transfer, authentication with 2FA, TLS secure communication, privacy-by-design mechanisms, monitoring, and user education.
+
+---
+
+## Repository Structure
+
